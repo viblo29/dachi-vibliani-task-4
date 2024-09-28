@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- დავალება რადგან მოითხოვდა internalიც გამოვიყენე მაინც -->
+    <style>
+        label {font-size: 20px; line-height: 15px; font-family: 'Times New Roman', Times, serif;}
+        input {font-size: 10px; line-height: 10px; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    </style>
+</head>
+<body style="background-color:#644a8e;">
+    <form>
+        <!-- h1 with element selection + spanიც აქ გამოვიყენე -->
+        <h1>Fill up your <span>contact</span> info <<<</h1>
+        
+        <!-- ყველა label-სა და input-ში გამოყენებულია class -->
+        <label class="box" for="name">Full Name</label>
+        <input class="box2" type="text" name="name" id="name" placeholder="Enter your full name" required> <br> <br>
+
+        <label class="box" for="email">Email</label>
+        <input class="box2" type="email" name="email" id="email" placeholder="Enter your Email" required> <br> <br>
+
+        <label class="box" for="tel">Phone Number</label>
+        <input class="box2" type="tel" name="tel" id="tel" placeholder="Enter your mobile number" required> <br> <br> 
+    
+        <label class="box" for="subject">Subject</label>
+        <input class="box2" type="text" name="subject" id="subject" placeholder="Subject of your message" required> <br> <br>
+        
+        <!-- textarea with inline style -->
+        <label class="box" for="message">Message</label>
+        <textarea style="background-color: #a3c665; border-radius:10px; padding: 10px;" name="text" id="message" placeholder="Write your message" required></textarea> <br>
+    
+        <p><b>Preffered Contact Method:</b></p>
+        <input type="radio" name="option" id="emailBtn" value="emailBtn" required>
+        <label class="box2" for="emailBtn">EMAIL</label>
+
+        <input type="radio" name="option" id="numbBtn" value="numbBtn" required>
+        <label class="box2" for="numbBtn">Mobile Number</label> <br> <br> <br>
+
+        <label class="box" for="Subscribe">Subscribe To Updates</label>
+        <input type="checkbox" name="Subscribe" id="Subscribe" required> <br> <br>
+
+        <label class="box" for="rating">Rating (1 to 10)</label>
+        <input type="range" name="rating" id="rating" min="1" max="10" oninput="this.nextElementSibling.value = this.value">
+        <output>5</output> <br> <br>
+
+        <label class="box" for="clr">Choose your favorite color:</label>
+        <input type="color" name="clr" id="clr"> <br> <br>
+
+        <label class="box" for="visitdate">Date of Visit:</label>
+        <input type="date" name="visitdate" id="visitdate"> <br> <br>
+
+        <!-- აქ გამოვიყენე id tag -->
+        <input type="submit" name="" id="submitBtn"> <br><br>
+</form>
+
+<div class="video">
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@_reeducate/video/7376590259468946705" data-video-id="7376590259468946705" style="width: 310px; height: 570px;" > <section> <a target="_blank" title="@_reeducate" href="https://www.tiktok.com/@_reeducate?refer=embed">@_reeducate</a> 🤖 რა სქილებია საჭირო იმისთვის, რომ გახდე დეველოპერი?  🤔 ალბათ თავში ბევრი აზრი მოგივიდა, მაგრამ ართ ერთი მათგანი არ არის აუცილებლი გარდა ერთისა   💁‍♂️მთავარია შენს თავს შეახსენო რომ <a title="შენცშეგიძლია" target="_blank" href="https://www.tiktok.com/tag/%E1%83%A8%E1%83%94%E1%83%9C%E1%83%AA%E1%83%A8%E1%83%94%E1%83%92%E1%83%98%E1%83%AB%E1%83%9A%E1%83%98%E1%83%90?refer=embed">#შენცშეგიძლია</a>  <a title="coding" target="_blank" href="https://www.tiktok.com/tag/coding?refer=embed">#coding</a> <a title="codingtiktok" target="_blank" href="https://www.tiktok.com/tag/codingtiktok?refer=embed">#codingtiktok</a> <a title="reeducate" target="_blank" href="https://www.tiktok.com/tag/reeducate?refer=embed">#reeducate</a> <a target="_blank" title="♬ original sound  - re:educate" href="https://www.tiktok.com/music/original-sound-reeducate-7376590318440811280?refer=embed">♬ original sound  - re:educate</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+</div>
+
+<div class="table">
+        <table border="2" style="border-color: yellow;">
+        <tr>
+            <th style="color: yellow;">Social Media Accounts:</th>
+            <th bgcolor="white"><a href="https://www.tiktok.com/@_reeducate" target="_blank">Tiktok</a></th>
+            <th bgcolor="#0766ff" ><a href="https://www.facebook.com/reeducate9/" target="_blank">Facebook</a></th>
+        </tr>
+        <tr>
+            <td bgcolor="black"><a href="https://www.reeducate.space/" target="_blank" style="color: white;">Re:Educate WEBSITE</a></td>
+        </tr>    
+        </table>
+</div>
+    <br><br><br>
+    <a style="background-color: #396b30; color: white;" href="./page2.html" target="_blank">Go To Second Page</a>
+</body>
+</html>

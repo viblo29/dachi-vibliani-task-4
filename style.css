@@ -1,0 +1,64 @@
+*{
+    color: black;
+}
+
+/* Element Selector */
+h1{
+    background-color:#ca003d; 
+    color: white;
+    font-family: 'Times New Roman', Times, serif; 
+    border-radius: 10px; 
+    padding: 20px;
+    width: 335px; 
+    position: absolute; 
+    top: -20px; 
+    left: 550px;;
+}
+span{
+    color: yellow;
+}
+p{
+    font-size: x-large;
+}
+/* Class selector for every label line */
+.box {
+    padding: 8px; 
+    background-color: #396b30; 
+    color: white;
+}
+
+/* Class selector for every input line */
+.box1 { 
+    background-color:#a3c665; 
+    border-radius:10px; 
+    padding: 10px; 
+    width: 150px;
+}
+
+/* Class selector for choosing preffered contact method */
+.box2 {
+    padding: 5px; 
+    border-radius:10px; 
+    background-color: #a3c665; color: #fcf7f7;
+}
+
+
+/* ID selector only for submit button */
+#submitBtn {
+    padding: 30px;
+    background-color: black; 
+    color: yellow;
+    font-size: x-large;
+}
+
+.table{
+    color: yellow;
+    position:absolute;
+    right: 10px;
+}
+
+.video {
+    position:absolute;
+    right: 10px;
+    top: 0px;
+}
